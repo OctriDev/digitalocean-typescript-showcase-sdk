@@ -1,0 +1,21 @@
+{
+  "renderedCases": 5128,
+  "kinds": [
+    "auth-application",
+    "binary-request",
+    "binary-response",
+    "bytes-response",
+    "empty-response",
+    "error-response",
+    "form-request",
+    "header-serialization",
+    "json-request",
+    "json-response",
+    "nullable-model",
+    "pagination",
+    "path-serialization",
+    "query-serialization",
+    "streaming",
+    "text-response"
+  ]
+}
