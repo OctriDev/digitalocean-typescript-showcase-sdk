@@ -13,12 +13,13 @@ import type { ApiGoogleDriveDataSourceDisplay } from "./agent-platform-api-api-g
 
 import type { ApiIndexedDataSource } from "./agent-platform-api-api-indexed";
 
-import type { ApiIndexingJob, ApiRerankingConfiguration } from "./agent-platform-api-api.part002";
-
 import type {
+  ApiRerankingConfiguration,
   ApiSpacesDataSource,
   ApiWebCrawlerDataSource,
-} from "./agent-platform-api-api.part003";
+} from "./agent-platform-api-api-llm-span";
+
+import type { ApiIndexingJob } from "./agent-platform-api-api-shared";
 
 /**
  * Knowledgebase Description

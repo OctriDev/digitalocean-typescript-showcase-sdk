@@ -3,7 +3,7 @@
 
 import type { CronConfig, SlackOutputWrite } from "./harness-runtime";
 
-import type { AgentKind } from "./harness-runtime-agent.part001";
+import type { AgentKind } from "./harness-runtime-agent-shared";
 
 import type { WebhookConfig } from "./harness-runtime-webhook";
 

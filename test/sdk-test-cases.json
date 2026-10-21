@@ -29367,7 +29367,7 @@
   },
   {
     "id": "behavior-190",
-    "operationId": "droplets_list_backup_policies",
+    "operationId": "listAllBackupPolicies",
     "method": "GET",
     "path": "/v2/droplets/backups/policies",
     "signature": "{\"errors\":[\"json\",\"json\",\"json\",\"json\",\"json\"],\"method\":\"GET\",\"nullable\":false,\"pagination\":null,\"parameters\":[{\"array\":false,\"explode\":true,\"location\":\"query\",\"required\":false,\"style\":\"form\"},{\"array\":false,\"explode\":true,\"location\":\"query\",\"required\":false,\"style\":\"form\"}],\"request\":[],\"response\":[\"json\"],\"security\":[{\"bearer_auth\":[\"droplet:read\"]}],\"streaming\":false}",
@@ -101752,8 +101752,8 @@
     "source": "media-example"
   },
   {
-    "id": "authored-droplets_list_backup_policies-200-application/json",
-    "operationId": "droplets_list_backup_policies",
+    "id": "authored-listAllBackupPolicies-200-application/json",
+    "operationId": "listAllBackupPolicies",
     "method": "GET",
     "path": "/v2/droplets/backups/policies",
     "kinds": ["json-response"],
@@ -101805,8 +101805,8 @@
     "source": "media-example"
   },
   {
-    "id": "authored-droplets_list_backup_policies-401-application/json",
-    "operationId": "droplets_list_backup_policies",
+    "id": "authored-listAllBackupPolicies-401-application/json",
+    "operationId": "listAllBackupPolicies",
     "method": "GET",
     "path": "/v2/droplets/backups/policies",
     "kinds": ["json-response"],
@@ -101821,8 +101821,8 @@
     "source": "media-example"
   },
   {
-    "id": "authored-droplets_list_backup_policies-404-application/json",
-    "operationId": "droplets_list_backup_policies",
+    "id": "authored-listAllBackupPolicies-404-application/json",
+    "operationId": "listAllBackupPolicies",
     "method": "GET",
     "path": "/v2/droplets/backups/policies",
     "kinds": ["json-response"],
@@ -101837,8 +101837,8 @@
     "source": "media-example"
   },
   {
-    "id": "authored-droplets_list_backup_policies-429-application/json",
-    "operationId": "droplets_list_backup_policies",
+    "id": "authored-listAllBackupPolicies-429-application/json",
+    "operationId": "listAllBackupPolicies",
     "method": "GET",
     "path": "/v2/droplets/backups/policies",
     "kinds": ["json-response"],
@@ -101853,8 +101853,8 @@
     "source": "media-example"
   },
   {
-    "id": "authored-droplets_list_backup_policies-500-application/json",
-    "operationId": "droplets_list_backup_policies",
+    "id": "authored-listAllBackupPolicies-500-application/json",
+    "operationId": "listAllBackupPolicies",
     "method": "GET",
     "path": "/v2/droplets/backups/policies",
     "kinds": ["json-response"],
@@ -101869,8 +101869,8 @@
     "source": "media-example"
   },
   {
-    "id": "authored-droplets_list_backup_policies-default-application/json",
-    "operationId": "droplets_list_backup_policies",
+    "id": "authored-listAllBackupPolicies-default-application/json",
+    "operationId": "listAllBackupPolicies",
     "method": "GET",
     "path": "/v2/droplets/backups/policies",
     "kinds": ["json-response"],

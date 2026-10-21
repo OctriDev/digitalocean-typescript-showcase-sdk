@@ -32,7 +32,7 @@ import type {
   AmdGpuDraDriver,
 } from "./kubernetes-amd";
 
-import type { ClusterAutoscalerConfiguration } from "./kubernetes-cluster.part001";
+import type { ClusterAutoscalerConfiguration } from "./kubernetes-cluster-shared";
 
 import type { MaintenancePolicy } from "./kubernetes-maintenance";
 

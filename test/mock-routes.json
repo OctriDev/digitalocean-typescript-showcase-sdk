@@ -28323,7 +28323,7 @@
     }
   },
   {
-    "operationId": "droplets_list_backup_policies",
+    "operationId": "listAllBackupPolicies",
     "summary": "To list information about the backup policies for all Droplets in the account,\nsend a GET request to `/v2/droplets/backups/policies`.",
     "method": "GET",
     "pathTemplate": "/v2/droplets/backups/policies",

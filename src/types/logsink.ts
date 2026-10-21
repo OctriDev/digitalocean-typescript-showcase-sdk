@@ -3,9 +3,9 @@
 
 import type { OpensearchLogsink } from "./databases-opensearch";
 
-import type { DatadogLogsink, ElasticsearchLogsink } from "./databases.part001";
+import type { RsyslogLogsink } from "./databases-redis-advanced-config";
 
-import type { RsyslogLogsink } from "./databases.part002";
+import type { DatadogLogsink, ElasticsearchLogsink } from "./databases-shared";
 
 import type { LogsinkBase, LogsinkBaseVerbose } from "./logsink-base";
 

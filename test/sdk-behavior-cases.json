@@ -26308,7 +26308,7 @@
     },
     {
       "id": "behavior-190",
-      "operationId": "droplets_list_backup_policies",
+      "operationId": "listAllBackupPolicies",
       "kinds": ["auth-application", "error-response", "json-response", "query-serialization"],
       "request": {
         "method": "GET",
@@ -95275,8 +95275,8 @@
       }
     },
     {
-      "id": "authored-droplets_list_backup_policies-200-application/json",
-      "operationId": "droplets_list_backup_policies",
+      "id": "authored-listAllBackupPolicies-200-application/json",
+      "operationId": "listAllBackupPolicies",
       "kinds": ["json-response"],
       "request": null,
       "response": {
@@ -95328,8 +95328,8 @@
       }
     },
     {
-      "id": "authored-droplets_list_backup_policies-401-application/json",
-      "operationId": "droplets_list_backup_policies",
+      "id": "authored-listAllBackupPolicies-401-application/json",
+      "operationId": "listAllBackupPolicies",
       "kinds": ["json-response"],
       "request": null,
       "response": {
@@ -95345,8 +95345,8 @@
       }
     },
     {
-      "id": "authored-droplets_list_backup_policies-404-application/json",
-      "operationId": "droplets_list_backup_policies",
+      "id": "authored-listAllBackupPolicies-404-application/json",
+      "operationId": "listAllBackupPolicies",
       "kinds": ["json-response"],
       "request": null,
       "response": {
@@ -95362,8 +95362,8 @@
       }
     },
     {
-      "id": "authored-droplets_list_backup_policies-429-application/json",
-      "operationId": "droplets_list_backup_policies",
+      "id": "authored-listAllBackupPolicies-429-application/json",
+      "operationId": "listAllBackupPolicies",
       "kinds": ["json-response"],
       "request": null,
       "response": {
@@ -95379,8 +95379,8 @@
       }
     },
     {
-      "id": "authored-droplets_list_backup_policies-500-application/json",
-      "operationId": "droplets_list_backup_policies",
+      "id": "authored-listAllBackupPolicies-500-application/json",
+      "operationId": "listAllBackupPolicies",
       "kinds": ["json-response"],
       "request": null,
       "response": {
@@ -95396,8 +95396,8 @@
       }
     },
     {
-      "id": "authored-droplets_list_backup_policies-default-application/json",
-      "operationId": "droplets_list_backup_policies",
+      "id": "authored-listAllBackupPolicies-default-application/json",
+      "operationId": "listAllBackupPolicies",
       "kinds": ["json-response"],
       "request": null,
       "response": {

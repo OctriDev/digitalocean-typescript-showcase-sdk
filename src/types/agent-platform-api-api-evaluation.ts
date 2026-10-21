@@ -3,19 +3,19 @@
 
 import type { ApiCustomEvaluationMetricConfig } from "./agent-platform-api-api-custom";
 
-import type { ApiModelPricingEntry } from "./agent-platform-api-api-model.part003";
+import type { ApiTraceSpan } from "./agent-platform-api-api-llm-span";
+
+import type { ApiModelPricingEntry } from "./agent-platform-api-api-model-genai-get-model-evaluation-run";
 
 import type { ApiPromptChunk } from "./agent-platform-api-api-prompt";
+
+import type { ApiAssociatedModelEvaluationPreset } from "./agent-platform-api-api-shared";
 
 import type { ApiStarMetric } from "./agent-platform-api-api-star";
 
 import type { ApiTokenPricing } from "./agent-platform-api-api-token";
 
 import type { ApiTraceSpanType } from "./agent-platform-api-api-trace";
-
-import type { ApiAssociatedModelEvaluationPreset } from "./agent-platform-api-api.part001";
-
-import type { ApiTraceSpan } from "./agent-platform-api-api.part003";
 
 /**
  * Typed representation of the `ApiEvaluationDataset` API schema.
