@@ -3,7 +3,7 @@
 
 import type { ReusableSession } from "./harness-runtime";
 
-import type { AgentConfigSummary } from "./harness-runtime-agent.part001";
+import type { AgentConfigSummary } from "./harness-runtime-agent-harness-list-configs";
 
 import type { Checkpoint } from "./harness-runtime-checkpoint";
 

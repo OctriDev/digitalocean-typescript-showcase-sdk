@@ -578,7 +578,7 @@ const OPERATION_SECURITY: Readonly<Record<string, readonly (readonly string[])[]
 
   dropletsGetBackupPolicy: [["bearer_auth"]],
 
-  dropletsListBackupPolicies: [["bearer_auth"]],
+  listAllBackupPolicies: [["bearer_auth"]],
 
   dropletsListSupportedBackupPolicies: [["bearer_auth"]],
 

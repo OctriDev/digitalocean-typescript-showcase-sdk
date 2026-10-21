@@ -7,17 +7,26 @@ import type { ApiCustomModel } from "./agent-platform-api-api-custom";
 
 import type { ApiEvaluationRun, ApiEvaluationTestCase } from "./agent-platform-api-api-evaluation";
 
+import type { ApiResourceUsage } from "./agent-platform-api-api-genai-get-agent-usage";
+
 import type { ApiKnowledgeBase } from "./agent-platform-api-api-knowledge";
 
-import type { ApiModelCatalogCard } from "./agent-platform-api-api-model.part001";
+import type {
+  ApiMeta,
+  ApiScheduledIndexingInfo,
+  ApiWorkspace,
+} from "./agent-platform-api-api-llm-span";
+
+import type { ApiModelCatalogCard } from "./agent-platform-api-api-model-genai-get-model-catalog-card";
 
 import type {
-  ApiModelEvaluationPreset,
   ApiModelEvaluationResult,
   ApiModelEvaluationRunDetail,
-} from "./agent-platform-api-api-model.part002";
+} from "./agent-platform-api-api-model-genai-get-model-evaluation-run";
 
-import type { ApiModelRouter } from "./agent-platform-api-api-model.part003";
+import type { ApiModelRouter } from "./agent-platform-api-api-model-provider-key-info";
+
+import type { ApiModelEvaluationPreset } from "./agent-platform-api-api-model-shared";
 
 import type { ApiOpenAIAPIKeyInfo } from "./agent-platform-api-api-open";
 
@@ -26,23 +35,20 @@ import type { ApiPrompt } from "./agent-platform-api-api-prompt";
 import type { ApiScenarioSet } from "./agent-platform-api-api-scenario";
 
 import type {
-  ApiSimulationEpisode,
-  ApiSimulationRun,
-  ApiSimulationScenarioResult,
-  ApiSimulationTrajectory,
-} from "./agent-platform-api-api-simulation.part001";
-
-import type { ApiAgent, ApiAnthropicAPIKeyInfo } from "./agent-platform-api-api.part001";
-
-import type {
+  ApiAgent,
+  ApiAnthropicAPIKeyInfo,
   ApiIndexingJob,
   ApiLinks,
-  ApiMeta,
-  ApiResourceUsage,
-  ApiScheduledIndexingInfo,
-} from "./agent-platform-api-api.part002";
+} from "./agent-platform-api-api-shared";
 
-import type { ApiWorkspace } from "./agent-platform-api-api.part003";
+import type { ApiSimulationTrajectory } from "./agent-platform-api-api-simulation-genai-get-simulation-episode-trajectory";
+
+import type { ApiSimulationScenarioResult } from "./agent-platform-api-api-simulation-genai-get-simulation-run";
+
+import type {
+  ApiSimulationEpisode,
+  ApiSimulationRun,
+} from "./agent-platform-api-api-simulation-shared";
 
 /**
  * One Agent

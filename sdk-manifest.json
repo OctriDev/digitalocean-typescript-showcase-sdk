@@ -37526,179 +37526,6 @@
       ]
     },
     {
-      "id": "dropletsListBackupPolicies",
-      "wireOperationId": "droplets_list_backup_policies",
-      "method": "get",
-      "path": "/v2/droplets/backups/policies",
-      "namespace": ["droplets"],
-      "streams": false,
-      "mode": "normal",
-      "streamSelector": null,
-      "requestMediaType": null,
-      "contentTypes": null,
-      "publicMethods": [
-        {
-          "mode": "normal",
-          "name": "droplets_list_backup_policies"
-        }
-      ],
-      "requestModes": [],
-      "responseModes": [
-        {
-          "statusCode": "200",
-          "mediaType": "application/json",
-          "decoderKind": "json",
-          "schemaRef": "#/components/schemas/AllDropletBackupPolicies",
-          "schemaType": {
-            "type": "ref",
-            "format": null,
-            "ref": "AllDropletBackupPolicies",
-            "nullable": false,
-            "items": null,
-            "mapValue": null,
-            "variants": null
-          },
-          "hasAuthoredExample": true,
-          "authoredExampleSource": "media-example"
-        }
-      ],
-      "errorResponseModes": [
-        {
-          "statusCode": "401",
-          "mediaType": "application/json",
-          "decoderKind": "json",
-          "schemaRef": "#/components/schemas/Error2",
-          "schemaType": {
-            "type": "ref",
-            "format": null,
-            "ref": "Error2",
-            "nullable": false,
-            "items": null,
-            "mapValue": null,
-            "variants": null
-          },
-          "hasAuthoredExample": true,
-          "authoredExampleSource": "media-example"
-        },
-        {
-          "statusCode": "404",
-          "mediaType": "application/json",
-          "decoderKind": "json",
-          "schemaRef": "#/components/schemas/Error2",
-          "schemaType": {
-            "type": "ref",
-            "format": null,
-            "ref": "Error2",
-            "nullable": false,
-            "items": null,
-            "mapValue": null,
-            "variants": null
-          },
-          "hasAuthoredExample": true,
-          "authoredExampleSource": "media-example"
-        },
-        {
-          "statusCode": "429",
-          "mediaType": "application/json",
-          "decoderKind": "json",
-          "schemaRef": "#/components/schemas/Error2",
-          "schemaType": {
-            "type": "ref",
-            "format": null,
-            "ref": "Error2",
-            "nullable": false,
-            "items": null,
-            "mapValue": null,
-            "variants": null
-          },
-          "hasAuthoredExample": true,
-          "authoredExampleSource": "media-example"
-        },
-        {
-          "statusCode": "500",
-          "mediaType": "application/json",
-          "decoderKind": "json",
-          "schemaRef": "#/components/schemas/Error2",
-          "schemaType": {
-            "type": "ref",
-            "format": null,
-            "ref": "Error2",
-            "nullable": false,
-            "items": null,
-            "mapValue": null,
-            "variants": null
-          },
-          "hasAuthoredExample": true,
-          "authoredExampleSource": "media-example"
-        },
-        {
-          "statusCode": "default",
-          "mediaType": "application/json",
-          "decoderKind": "json",
-          "schemaRef": "#/components/schemas/Error2",
-          "schemaType": {
-            "type": "ref",
-            "format": null,
-            "ref": "Error2",
-            "nullable": false,
-            "items": null,
-            "mapValue": null,
-            "variants": null
-          },
-          "hasAuthoredExample": true,
-          "authoredExampleSource": "media-example"
-        }
-      ],
-      "params": [
-        {
-          "name": "page",
-          "in": "query",
-          "required": false,
-          "nullable": false,
-          "type": "integer",
-          "wireType": "integer",
-          "declaredValue": null,
-          "style": "form",
-          "explode": true
-        },
-        {
-          "name": "per_page",
-          "in": "query",
-          "required": false,
-          "nullable": false,
-          "type": "integer",
-          "wireType": "integer",
-          "declaredValue": null,
-          "style": "form",
-          "explode": true
-        }
-      ],
-      "bindings": [
-        {
-          "name": "per_page",
-          "in": "query",
-          "required": false,
-          "nullable": false,
-          "type": "integer",
-          "wireType": "integer",
-          "declaredValue": null,
-          "style": "form",
-          "explode": true
-        },
-        {
-          "name": "page",
-          "in": "query",
-          "required": false,
-          "nullable": false,
-          "type": "integer",
-          "wireType": "integer",
-          "declaredValue": null,
-          "style": "form",
-          "explode": true
-        }
-      ]
-    },
-    {
       "id": "dropletsListBackups",
       "wireOperationId": "droplets_list_backups",
       "method": "get",
@@ -114080,6 +113907,179 @@
           "wireType": "string",
           "declaredValue": null,
           "mediaTypes": ["application/json"]
+        }
+      ]
+    },
+    {
+      "id": "listAllBackupPolicies",
+      "wireOperationId": "listAllBackupPolicies",
+      "method": "get",
+      "path": "/v2/droplets/backups/policies",
+      "namespace": ["droplets"],
+      "streams": false,
+      "mode": "normal",
+      "streamSelector": null,
+      "requestMediaType": null,
+      "contentTypes": null,
+      "publicMethods": [
+        {
+          "mode": "normal",
+          "name": "listAllBackupPolicies"
+        }
+      ],
+      "requestModes": [],
+      "responseModes": [
+        {
+          "statusCode": "200",
+          "mediaType": "application/json",
+          "decoderKind": "json",
+          "schemaRef": "#/components/schemas/AllDropletBackupPolicies",
+          "schemaType": {
+            "type": "ref",
+            "format": null,
+            "ref": "AllDropletBackupPolicies",
+            "nullable": false,
+            "items": null,
+            "mapValue": null,
+            "variants": null
+          },
+          "hasAuthoredExample": true,
+          "authoredExampleSource": "media-example"
+        }
+      ],
+      "errorResponseModes": [
+        {
+          "statusCode": "401",
+          "mediaType": "application/json",
+          "decoderKind": "json",
+          "schemaRef": "#/components/schemas/Error2",
+          "schemaType": {
+            "type": "ref",
+            "format": null,
+            "ref": "Error2",
+            "nullable": false,
+            "items": null,
+            "mapValue": null,
+            "variants": null
+          },
+          "hasAuthoredExample": true,
+          "authoredExampleSource": "media-example"
+        },
+        {
+          "statusCode": "404",
+          "mediaType": "application/json",
+          "decoderKind": "json",
+          "schemaRef": "#/components/schemas/Error2",
+          "schemaType": {
+            "type": "ref",
+            "format": null,
+            "ref": "Error2",
+            "nullable": false,
+            "items": null,
+            "mapValue": null,
+            "variants": null
+          },
+          "hasAuthoredExample": true,
+          "authoredExampleSource": "media-example"
+        },
+        {
+          "statusCode": "429",
+          "mediaType": "application/json",
+          "decoderKind": "json",
+          "schemaRef": "#/components/schemas/Error2",
+          "schemaType": {
+            "type": "ref",
+            "format": null,
+            "ref": "Error2",
+            "nullable": false,
+            "items": null,
+            "mapValue": null,
+            "variants": null
+          },
+          "hasAuthoredExample": true,
+          "authoredExampleSource": "media-example"
+        },
+        {
+          "statusCode": "500",
+          "mediaType": "application/json",
+          "decoderKind": "json",
+          "schemaRef": "#/components/schemas/Error2",
+          "schemaType": {
+            "type": "ref",
+            "format": null,
+            "ref": "Error2",
+            "nullable": false,
+            "items": null,
+            "mapValue": null,
+            "variants": null
+          },
+          "hasAuthoredExample": true,
+          "authoredExampleSource": "media-example"
+        },
+        {
+          "statusCode": "default",
+          "mediaType": "application/json",
+          "decoderKind": "json",
+          "schemaRef": "#/components/schemas/Error2",
+          "schemaType": {
+            "type": "ref",
+            "format": null,
+            "ref": "Error2",
+            "nullable": false,
+            "items": null,
+            "mapValue": null,
+            "variants": null
+          },
+          "hasAuthoredExample": true,
+          "authoredExampleSource": "media-example"
+        }
+      ],
+      "params": [
+        {
+          "name": "page",
+          "in": "query",
+          "required": false,
+          "nullable": false,
+          "type": "integer",
+          "wireType": "integer",
+          "declaredValue": null,
+          "style": "form",
+          "explode": true
+        },
+        {
+          "name": "per_page",
+          "in": "query",
+          "required": false,
+          "nullable": false,
+          "type": "integer",
+          "wireType": "integer",
+          "declaredValue": null,
+          "style": "form",
+          "explode": true
+        }
+      ],
+      "bindings": [
+        {
+          "name": "per_page",
+          "in": "query",
+          "required": false,
+          "nullable": false,
+          "type": "integer",
+          "wireType": "integer",
+          "declaredValue": null,
+          "style": "form",
+          "explode": true
+        },
+        {
+          "name": "page",
+          "in": "query",
+          "required": false,
+          "nullable": false,
+          "type": "integer",
+          "wireType": "integer",
+          "declaredValue": null,
+          "style": "form",
+          "explode": true
         }
       ]
     },
@@ -282004,29 +282004,6 @@
         ]
       },
       {
-        "id": "droplets_list_backup_policies",
-        "method": "get",
-        "path": "/v2/droplets/backups/policies",
-        "summary": "To list information about the backup policies for all Droplets in the account, send a GET request to `/v2/droplets/backups/policies`.",
-        "description": "To list information about the backup policies for all Droplets in the account, send a GET request to `/v2/droplets/backups/policies`.",
-        "deprecated": false,
-        "deprecationMessage": null,
-        "parameters": [
-          {
-            "name": "per_page",
-            "in": "query",
-            "required": false,
-            "description": "Number of items returned per page"
-          },
-          {
-            "name": "page",
-            "in": "query",
-            "required": false,
-            "description": "Which 'page' of paginated results to return."
-          }
-        ]
-      },
-      {
         "id": "droplets_list_backups",
         "method": "get",
         "path": "/v2/droplets/{droplet_id}/backups",
@@ -288638,6 +288615,29 @@
             "in": "path",
             "required": true,
             "description": "A unique ID that can be used to reference a Kubernetes cluster."
+          }
+        ]
+      },
+      {
+        "id": "listAllBackupPolicies",
+        "method": "get",
+        "path": "/v2/droplets/backups/policies",
+        "summary": "To list information about the backup policies for all Droplets in the account, send a GET request to `/v2/droplets/backups/policies`.",
+        "description": "To list information about the backup policies for all Droplets in the account, send a GET request to `/v2/droplets/backups/policies`.",
+        "deprecated": false,
+        "deprecationMessage": null,
+        "parameters": [
+          {
+            "name": "per_page",
+            "in": "query",
+            "required": false,
+            "description": "Number of items returned per page"
+          },
+          {
+            "name": "page",
+            "in": "query",
+            "required": false,
+            "description": "Which 'page' of paginated results to return."
           }
         ]
       },

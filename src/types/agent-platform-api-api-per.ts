@@ -4,7 +4,7 @@
 import type {
   ApiMetricResultSummary,
   ApiPerformanceMetrics,
-} from "./agent-platform-api-api.part002";
+} from "./agent-platform-api-api-genai-get-model-evaluation-run";
 
 /**
  * One epoch's standalone score, computed the same way overall_score_percent
